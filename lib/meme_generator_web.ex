@@ -85,6 +85,8 @@ defmodule MemeGeneratorWeb do
       # Core UI components and translation
       import MemeGeneratorWeb.CoreComponents
 
+      import MemeGeneratorWeb.CustomComponents
+
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS
 
